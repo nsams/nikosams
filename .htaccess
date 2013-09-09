@@ -1,6 +1,7 @@
 RewriteEngine on
 
-RewriteCond %{REQUEST_URI} !^/*(bootstrap.php|test)/?
+RewriteCond %{REQUEST_URI} !^/(upload)/
+RewriteCond %{REQUEST_URI} !/bootstrap\.php$
 RewriteRule ^(.*)$ bootstrap.php [L]
 
 php_flag magic_quotes_gpc off
