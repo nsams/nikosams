@@ -15,6 +15,13 @@ class Root_Component extends Kwc_Root_Component
             'inherit' => true,
             'priority' => -1
         );
+        $ret['generators']['analytics'] = array(
+            'class' => 'Kwf_Component_Generator_Box_Static',
+            'component' => 'Kwc_Statistics_Analytics_Component',
+            'box' => 'analytics',
+            'inherit' => true,
+            'unique' => true
+        );
 
         return $ret;
     }
