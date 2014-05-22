@@ -4,7 +4,6 @@ querylog
 .buildpath
 .settings
 include_path
-update
 eventlog
 kwf-lib
 config.local.ini
