@@ -3,10 +3,10 @@ querylog
 .project
 .buildpath
 .settings
-include_path
 eventlog
-kwf-lib
 config.local.ini
-library
 config_section
-
+/build
+/vendor
+bower.json
+.bowerrc

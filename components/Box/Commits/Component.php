@@ -11,6 +11,6 @@ class Box_Commits_Component extends Kwc_Abstract
 
     public function getViewCacheLifetime()
     {
-        return 60;
+        return 60*5;
     }
 }

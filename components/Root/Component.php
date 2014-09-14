@@ -21,6 +21,7 @@ class Root_Component extends Kwc_Root_Component
             'component' => 'Box_Commits_Component',
             'box' => 'rightBox',
             'inherit' => true,
+            'unique' => true,
             'priority' => -1
         );
         $ret['generators']['analytics'] = array(

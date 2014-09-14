@@ -1,0 +1,460 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9a439ad8d460a1e6bf0e7f1e6feaafc4",
+    "packages": [
+        {
+            "name": "easybook/geshi",
+            "version": "1.0.8.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/easybook/geshi.git",
+                "reference": "43551c725634f1f799e8437297ea32b8251a5879"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/easybook/geshi/zipball/43551c725634f1f799e8437297ea32b8251a5879",
+                "reference": "43551c725634f1f799e8437297ea32b8251a5879",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">4.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Benny Baumann",
+                    "email": "BenBE@geshi.org",
+                    "homepage": "http://blog.benny-baumann.de/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Nigel McNie",
+                    "email": "nigel@geshi.org"
+                }
+            ],
+            "description": "GeSHi - Generic Syntax Highlighter. This is an unmodified port of GeSHi project code found on SourceForge.",
+            "homepage": "http://qbnz.com/highlighter",
+            "keywords": [
+                "highlight",
+                "highlighter",
+                "syntax"
+            ],
+            "time": "2013-11-07 14:45:36"
+        },
+        {
+            "name": "koala-framework/composer-extra-assets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/composer-extra-assets.git",
+                "reference": "0d3324aeafc33fe21de98aa1ff4dd834ebe32eca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/composer-extra-assets/zipball/0d3324aeafc33fe21de98aa1ff4dd834ebe32eca",
+                "reference": "0d3324aeafc33fe21de98aa1ff4dd834ebe32eca",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Kwf\\ComposerExtraAssets\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "require-npm": {
+                    "bower": "*"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kwf\\ComposerExtraAssets\\": "Kwf/ComposerExtraAssets"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Composer Plugin for installing Assets using native npm/bower",
+            "homepage": "https://github.com/koala-framework/composer-extra-assets",
+            "time": "2014-08-11 10:00:17"
+        },
+        {
+            "name": "koala-framework/extjs2",
+            "version": "v2.3.0-p2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/extjs2.git",
+                "reference": "ec2d4b15b46b60436312437493df50355f892ac7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/extjs2/zipball/ec2d4b15b46b60436312437493df50355f892ac7",
+                "reference": "ec2d4b15b46b60436312437493df50355f892ac7",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "description": "ExtJS JavaScript Library",
+            "homepage": "http://www.sencha.com/products/extjs/",
+            "time": "2014-08-04 16:04:16"
+        },
+        {
+            "name": "koala-framework/koala-framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/koala-framework.git",
+                "reference": "6c8881a3e0593eb73c1c6a1a7f1979500a1566dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/6c8881a3e0593eb73c1c6a1a7f1979500a1566dd",
+                "reference": "6c8881a3e0593eb73c1c6a1a7f1979500a1566dd",
+                "shasum": ""
+            },
+            "require": {
+                "koala-framework/composer-extra-assets": "dev-master",
+                "koala-framework/extjs2": "2.3.0.*",
+                "koala-framework/kwf-modernizr": "dev-master",
+                "koala-framework/library-css3pie": "1.0.0",
+                "koala-framework/library-htmlawed": "1.1.14",
+                "koala-framework/library-silkicons": "1.3",
+                "koala-framework/library-swfupload": "2.2.0.1",
+                "koala-framework/zendframework1": "1.12.6"
+            },
+            "require-dev": {
+                "amazonwebservices/aws-sdk-for-php": "1.5.14",
+                "phpunit/phpunit": "3.7.*",
+                "phpunit/phpunit-selenium": "*"
+            },
+            "suggest": {
+                "amazonwebservices/aws-sdk-for-php": "Integration with Amazon Web Services",
+                "phpoffice/phpexcel": "Allows exporting as XLS in AutoGrid",
+                "reprovinci/solr-php-client": "Integration with Solr",
+                "tecnick.com/tcpdf": "Allows generating pdfs from components"
+            },
+            "type": "library",
+            "extra": {
+                "require-bower": {
+                    "jquery": "1.11.1",
+                    "jquery.transit": "0.9.9",
+                    "jquery.easing": "1.3.0",
+                    "mustache.js": "0.8.2",
+                    "susy": "1.0.9",
+                    "compass-mixins": "1.0.2",
+                    "tinymce": "tinymce/tinymce#3.5.8"
+                },
+                "require-npm": {
+                    "uglify-js": "2.4.13"
+                },
+                "require-dev-bower": {
+                    "qunit": "1.14.0",
+                    "qunit-phantomjs-runner": "jonkemp/qunit-phantomjs-runner#1.2.0"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Kwf_": "",
+                    "Kwc_": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Framework and CMS based on Zend Framework and ExtJS",
+            "homepage": "http://www.koala-framework.org/",
+            "time": "2014-09-12 08:00:21"
+        },
+        {
+            "name": "koala-framework/kwc-theme-grey-box",
+            "version": "dev-composer",
+            "source": {
+                "type": "git",
+                "url": "/home/niko/www/kwc-theme-grey-box",
+                "reference": "58f106511bdf8a53f55ad3a61d2e2df84226114e"
+            },
+            "require": {
+                "koala-framework/koala-framework": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Theme_": ""
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Koala Framework Grey Box Theme, based on Catch Box Theme",
+            "homepage": "http://www.koala-framework.org/",
+            "time": "2014-08-31 18:52:24"
+        },
+        {
+            "name": "koala-framework/kwf-modernizr",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/kwf-modernizr.git",
+                "reference": "d85b4b9fcc3dd7c8d30fe2c3a686aa6efe1c34b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/kwf-modernizr/zipball/d85b4b9fcc3dd7c8d30fe2c3a686aa6efe1c34b2",
+                "reference": "d85b4b9fcc3dd7c8d30fe2c3a686aa6efe1c34b2",
+                "shasum": ""
+            },
+            "require": {
+                "koala-framework/composer-extra-assets": "dev-master",
+                "koala-framework/koala-framework": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "require-npm": {
+                    "grunt": "0.4.*",
+                    "grunt-cli": "0.1.*",
+                    "grunt-modernizr": "0.5.2"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Kwf_Modernizr_": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Modernizr Integration for Koala Framework",
+            "homepage": "http://www.koala-framework.org/",
+            "time": "2014-08-27 08:59:57"
+        },
+        {
+            "name": "koala-framework/library-css3pie",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-css3pie.git",
+                "reference": "b2a7b69fa381065f4d1b90d03620c05bc5b4670f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-css3pie/zipball/b2a7b69fa381065f4d1b90d03620c05bc5b4670f",
+                "reference": "b2a7b69fa381065f4d1b90d03620c05bc5b4670f",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "CCSS3 PIE JavaScript Library",
+            "homepage": "http://css3pie.com/",
+            "time": "2014-06-03 18:55:48"
+        },
+        {
+            "name": "koala-framework/library-htmlawed",
+            "version": "v1.1.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-htmlawed.git",
+                "reference": "bc23ceaea4bc740a5a9e47c982cb054546baa2c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-htmlawed/zipball/bc23ceaea4bc740a5a9e47c982cb054546baa2c3",
+                "reference": "bc23ceaea4bc740a5a9e47c982cb054546baa2c3",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Htmlawed library",
+            "homepage": "http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/",
+            "time": "2014-06-02 06:11:36"
+        },
+        {
+            "name": "koala-framework/library-silkicons",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-silkicons.git",
+                "reference": "f7fee072786fc330bdbaf69d2fbf036f39eb53fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-silkicons/zipball/f7fee072786fc330bdbaf69d2fbf036f39eb53fa",
+                "reference": "f7fee072786fc330bdbaf69d2fbf036f39eb53fa",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Creative Commons Attribution 2.5 License"
+            ],
+            "authors": [
+                {
+                    "name": "Mark James",
+                    "homepage": "http://www.famfamfam.com/"
+                }
+            ],
+            "description": "This is the Famfamfam silk icon set, wrapped into an easy to use PHP composer package.",
+            "homepage": "http://www.famfamfam.com/",
+            "keywords": [
+                "famfamfam",
+                "icons",
+                "silk"
+            ],
+            "time": "2014-05-23 13:40:04"
+        },
+        {
+            "name": "koala-framework/library-swfobject",
+            "version": "v2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-swfobject.git",
+                "reference": "c926af6c1b7448aa48724891c57ef62206a67e45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-swfobject/zipball/c926af6c1b7448aa48724891c57ef62206a67e45",
+                "reference": "c926af6c1b7448aa48724891c57ef62206a67e45",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "SWFObject JavaScript Library",
+            "homepage": "https://github.com/swfobject/swfobject",
+            "time": "2014-05-23 13:40:50"
+        },
+        {
+            "name": "koala-framework/library-swfupload",
+            "version": "v2.2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-swfupload.git",
+                "reference": "7eb7c5c2a7a0d7144c2acd35131367c8fcb6683c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-swfupload/zipball/7eb7c5c2a7a0d7144c2acd35131367c8fcb6683c",
+                "reference": "7eb7c5c2a7a0d7144c2acd35131367c8fcb6683c",
+                "shasum": ""
+            },
+            "require": {
+                "koala-framework/library-swfobject": "2.2"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "SWFUpload JavaScript Library",
+            "homepage": "http://code.google.com/p/swfupload/",
+            "time": "2014-06-02 08:22:41"
+        },
+        {
+            "name": "koala-framework/recaptcha-php",
+            "version": "v1.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/recaptcha-php.git",
+                "reference": "868aa78446cac92242c6f506ebb40e55e9573ed2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/recaptcha-php/zipball/868aa78446cac92242c6f506ebb40e55e9573ed2",
+                "reference": "868aa78446cac92242c6f506ebb40e55e9573ed2",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Shim repository for official reCAPTCHA Library for PHP",
+            "homepage": "https://code.google.com/p/recaptcha/downloads/list?q=label:phplib-Latest",
+            "time": "2014-08-31 17:53:09"
+        },
+        {
+            "name": "koala-framework/zendframework1",
+            "version": "v1.12.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/zendframework1.git",
+                "reference": "40d972455b35fedc2c952b3f4ec82357db9cae74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/zendframework1/zipball/40d972455b35fedc2c952b3f4ec82357db9cae74",
+                "reference": "40d972455b35fedc2c952b3f4ec82357db9cae74",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend_": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "library/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "framework"
+            ],
+            "time": "2014-08-04 15:45:29"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "koala-framework/koala-framework": 20,
+        "koala-framework/kwc-theme-grey-box": 20
+    },
+    "prefer-stable": true,
+    "platform": [],
+    "platform-dev": []
+}
