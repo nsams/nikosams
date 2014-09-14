@@ -123,12 +123,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "6c8881a3e0593eb73c1c6a1a7f1979500a1566dd"
+                "reference": "771f3cbd0a13d7f53c4592789d76c96926f5ad3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/6c8881a3e0593eb73c1c6a1a7f1979500a1566dd",
-                "reference": "6c8881a3e0593eb73c1c6a1a7f1979500a1566dd",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/771f3cbd0a13d7f53c4592789d76c96926f5ad3a",
+                "reference": "771f3cbd0a13d7f53c4592789d76c96926f5ad3a",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +183,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-09-12 08:00:21"
+            "time": "2014-09-14 08:06:10"
         },
         {
             "name": "koala-framework/kwc-theme-grey-box",
