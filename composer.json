@@ -1,11 +1,7 @@
 {
-    "repositories": [{
-        "type": "vcs",
-        "url": "/home/niko/www/kwc-theme-grey-box"
-    }],
     "require": {
-        "koala-framework/koala-framework": "dev-master",
-        "koala-framework/kwc-theme-grey-box": "dev-composer",
+        "koala-framework/koala-framework": "3.8.x-dev",
+        "koala-framework/kwc-theme-grey-box": "3.8.x-dev",
         "easybook/geshi": "1.0.8.12",
         "koala-framework/recaptcha-php": "1.11",
         "koala-framework/kwf-deploy": "*"
