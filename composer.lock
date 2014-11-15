@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9a439ad8d460a1e6bf0e7f1e6feaafc4",
+    "hash": "a286da5add38b81ec138905e8526d3e1",
     "packages": [
         {
             "name": "easybook/geshi",
@@ -208,6 +208,45 @@
             "description": "Koala Framework Grey Box Theme, based on Catch Box Theme",
             "homepage": "http://www.koala-framework.org/",
             "time": "2014-08-31 18:52:24"
+        },
+        {
+            "name": "koala-framework/kwf-deploy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/kwf-deploy.git",
+                "reference": "25b31808080f93400cc0da4d05eab16c94e00787"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/kwf-deploy/zipball/25b31808080f93400cc0da4d05eab16c94e00787",
+                "reference": "25b31808080f93400cc0da4d05eab16c94e00787",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "2.5.6"
+            },
+            "bin": [
+                "bin/deploy"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kwf\\Deploy\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Niko Sams",
+                    "email": "niko.sams@gmail.com"
+                }
+            ],
+            "description": "Deployment scripts for Koala Framework based applications",
+            "time": "2014-11-07 14:46:28"
         },
         {
             "name": "koala-framework/kwf-modernizr",
@@ -445,6 +484,61 @@
                 "framework"
             ],
             "time": "2014-08-04 15:45:29"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.5.6",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "6f177fca24200a5b97aef5ce7a5c98124a0f0db0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/6f177fca24200a5b97aef5ce7a5c98124a0f0db0",
+                "reference": "6f177fca24200a5b97aef5ce7a5c98124a0f0db0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-10-05 13:57:04"
         }
     ],
     "packages-dev": [],

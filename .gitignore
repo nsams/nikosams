@@ -12,4 +12,9 @@ bower.json
 .bowerrc
 backup
 deploy.tar.gz
-
+owncloud
+owncloud-sams
+php5.ini
+backup-2014-09-14
+uploads
+test

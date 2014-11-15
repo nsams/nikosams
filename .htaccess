@@ -1,5 +1,4 @@
 RewriteEngine on
 
-RewriteCond %{REQUEST_URI} !^/(upload|owncloud|owncloud-sams|test)/
-RewriteCond %{REQUEST_URI} !/bootstrap\.php$
-RewriteRule ^(.*)$ bootstrap.php [L]
+RewriteCond $1 !^(bootstrap\.php|upload/|owncloud/|owncloud-sams/|test/)$
+RewriteRule ^(.*)$ bootstrap.php

@@ -7,7 +7,8 @@
         "koala-framework/koala-framework": "dev-master",
         "koala-framework/kwc-theme-grey-box": "dev-composer",
         "easybook/geshi": "1.0.8.12",
-        "koala-framework/recaptcha-php": "1.11"
+        "koala-framework/recaptcha-php": "1.11",
+        "koala-framework/kwf-deploy": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
